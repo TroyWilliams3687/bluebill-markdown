@@ -10,7 +10,7 @@
         "timespan_background":"#006053",
         "timespan_background_start":"#8c5fb0",
         "timespan_background_end":"#b05f8d",
-        "list_unnumbered_bullet_foreground":"seagreen",
+        "list_unnumbered_bullet_foreground":"cyan",
     },
     "globals": {
         "invisibles":"color(ivory alpha(0.5))", // tabs, spaces and other invisible characters
@@ -51,7 +51,7 @@
         {
             "name":"Unnumbered List - Bullet Coloring",
             "scope": "markup.list.unnumbered.bullet.markdown, punctuation.definition.list_item.markdown",
-            "foreground": "var(list_unnumbered_bullet_foreground",
+            "foreground": "var(list_unnumbered_bullet_foreground)",
          },
     ],
 }

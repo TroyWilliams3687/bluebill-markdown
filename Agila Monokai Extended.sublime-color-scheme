@@ -1,0 +1,57 @@
+// 2022-03-12 - This file is a base template file for use in constructing other
+// color-schemes from.
+
+// http://www.sublimetext.com/docs/3/color_schemes.html
+
+{
+    "variables": {
+        "basic_foreground": "#ffffff", // used in hashtag, timespan, and timezone
+        "hash_tag_background":"#3f3614",
+        "timespan_background":"#006053",
+        "timespan_background_start":"#8c5fb0",
+        "timespan_background_end":"#b05f8d",
+        "list_unnumbered_bullet_foreground":"seagreen",
+    },
+    "globals": {
+        "invisibles":"color(ivory alpha(0.5))", // tabs, spaces and other invisible characters
+    },
+    "rules": [
+        {
+            "name":"HashTag",
+            "scope": "bluebill.hashtag",
+            "background": "var(hash_tag_background)",
+            "foreground": "var(basic_foreground)",
+        },
+        {
+            "name":"TimeSpan",
+            "scope": "bluebill.timespan",
+            "background": "var(timespan_background)",
+            "foreground": "var(basic_foreground)",
+        },
+        {
+            "name":"TimeSpanStart",
+            "scope": "bluebill.timespan.start",
+            "background": "var(timespan_background_start)",
+            "foreground": "var(basic_foreground)",
+        },
+
+        {
+            "name":"TimeSpanEnd",
+            "scope": "bluebill.timespan.end",
+            "background": "var(timespan_background_end)",
+            "foreground": "var(basic_foreground)",
+        },
+
+        {
+            "name":"TimeZone",
+            "scope": "bluebill.timezone",
+            "background": "#6d6d10",
+            "foreground": "var(basic_foreground)",
+        },
+        {
+            "name":"Unnumbered List - Bullet Coloring",
+            "scope": "markup.list.unnumbered.bullet.markdown, punctuation.definition.list_item.markdown",
+            "foreground": "var(list_unnumbered_bullet_foreground",
+         },
+    ],
+}

@@ -13,6 +13,7 @@
         "list_unnumbered_bullet_foreground":"cyan",
     },
     "globals": {
+        // "background":"black", // background color of the editor window
         "invisibles":"color(ivory alpha(0.5))", // tabs, spaces and other invisible characters
     },
     "rules": [
